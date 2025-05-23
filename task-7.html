@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form>
+            <label>Usename:    </label>
+            <input type = "text"/>
+            <br><br>
+
+            <label>Password:    </label>
+            <input type = "password"/>
+            <br><br>
+
+            <label>City of <br>Employement:    </label>
+            <input type = "text"/>
+            <br><br>
+
+            <label>Web server:  </label>
+            <select name="server">
+            <option>-- Choose a server --</option>
+            <option>Server 1</option>
+            <option>Server 2</option>
+            <option>Server 3</option>
+            </select><br><br>
+            <label>Please specify <br>your role:  </label>
+            <input type = "radio" name = Position/>
+            <label>Admin</label><br>
+            <input type = "radio" name = Position/>
+            <label>Engineer</label><br>
+            <input type = "radio" name = Position/>
+            <label>Manager</label><br>
+            <input type = "radio" name = Position/>
+            <label>Guest</label>
+            <br><br>
+
+            <label>Single Sign-on<br>to the following:</label><br>
+            <input type="checkbox" name="services" value="mail"> Mail<br>
+            <input type="checkbox" name="services" value="payroll"> Payroll<br>
+            <input type="checkbox" name="services" value="selfservice"> Self-service<br><br>
+
+            <input type="submit" value = "Login"/>
+            <input type="reset" Value = "Reset"/>
+        </form>
+    </body>
+</html>

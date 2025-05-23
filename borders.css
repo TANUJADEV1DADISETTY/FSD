@@ -1,0 +1,28 @@
+.heading1{
+    /*full hand property*/
+    border-width: 2px;
+    border-color: plum;
+    border-style: solid;
+}
+.heading2{
+    /*short-hand-property*/
+    border: 3px palevioletred groove;
+    border-radius: 20px;
+}
+.heading3{
+    border-top:2px;
+    border-top-color: coral;
+    border-top-style: solid;
+
+    border-bottom:2px;
+    border-bottom-color: cornflowerblue;
+    border-bottom-style:dashed;
+
+    border-left:2px;
+    border-left-color: deeppink;
+    border-left-style: dotted;
+
+    border-right:2px;
+    border-right-color: deepskyblue;
+    border-right-style: groove;
+}

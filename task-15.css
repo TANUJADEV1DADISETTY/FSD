@@ -1,0 +1,32 @@
+.parent{
+    width:  300px;
+    height: 300px;
+    border-top:5px;
+    border-top-color: blueviolet;
+    border-top-style: groove;
+
+    border-bottom:6px;
+    border-bottom-color: cornflowerblue;
+    border-bottom-style:dashed;
+
+    border-left:7px;
+    border-left-color: deeppink;
+    border-left-style: dotted;
+
+    border-right:8px;
+    border-right-color: deepskyblue;
+    border-right-style:solid;
+
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+.child{
+    height: calc(300px/2);
+    width: calc(300px/2);;
+    border: 5px solid red;
+    border-radius:50%;
+    /*border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;*/
+}

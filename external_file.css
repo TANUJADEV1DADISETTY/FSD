@@ -1,0 +1,15 @@
+h1{
+    color: red;
+}
+p{
+    color: blueviolet;
+    font-weight:600;
+}
+strong{
+    color:cadetblue;
+    background-color:burlywood;
+}
+strong{
+    color:crimson;
+    background-color:gold;
+}
